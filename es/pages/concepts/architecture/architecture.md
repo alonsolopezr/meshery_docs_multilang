@@ -5,6 +5,7 @@ permalink: /es/concepts/architecture
 language: es
 lang: es
 categories: es
+type: concepts
 ---
 
 # Arquitectura

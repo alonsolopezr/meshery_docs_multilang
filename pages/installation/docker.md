@@ -4,6 +4,7 @@ title: Docker
 type: installation
 display-title: "false"
 permalink: installation/platforms/docker
+language: en
 lang: en
 categories: en
 list: include
