@@ -39,6 +39,20 @@
             </div>
 
             meshery-custom-end -->
+            <!-- LANG dropdown -->
+            <div class="version" class="nav-item  ml-md-auto ">
+                <span class="text-white text-bold">Language 
+        <select onchange="window.location=this.value" class="appearance-none flex-1 w-full px-0 py-1 placeholder-gray-900 tracking-wide bg-white focus:outline-none" name="langSelection" id="langSelection">
+          <option value="">lang</option>
+          <!-- {% assign sorted_versions = site.data.languages | sort: 'versioning' | reverse %} -->
+          {% for link in site.data.languages%}
+            <option value="{% if link.url %}{{ site.baseurl }}/{{ link.url }}{% else %}{{ link.external_url }}{% endif %}" class="nav-item mr-4 mb-2 mb-lg-0">
+                <span>{{ link.title }}</span>
+                </option>
+                {% endfor %}
+                </select>
+                </span>
+            </div>
     </nav>
 </header>
 

@@ -38,5 +38,63 @@ display-title: "false"
         {% endfor %}
       </ul>
   </div>
+<!-- CONCEPTS -->
+  <div>
+    <a href="{{ site.baseurl }}/concepts">
+        <div class="overview">Concepts</div>
+    </a>
+    <ul><b><a href="{{ site.baseurl }}/concepts" class="text-black">Concepts</a></b>
+      {% for item in sorted_pages %}
+      {% if item.type=="concepts" and item.list!="exclude" -%}
+        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul><b><a href="{{ site.baseurl }}/functionality" class="text-black">Functionality</a></b>
+      {% for item in sorted_pages %}
+      {% if item.type=="functionality" and item.list!="exclude" and item.language !="es" -%}
+        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul><b><a href="{{ site.baseurl }}/service-meshes" class="text-black">Service Mesh Management</a></b>
+      {% for item in sorted_pages %}
+      {% if item.type=="service-mesh" and item.list!="exclude" -%}
+        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+      {% for adapter in site.adapters -%}
+      {% if adapter.project_status -%}
+        <li><img src="{{ adapter.image }}" style="width:20px" /> <a href="{{ site.baseurl }}{{ adapter.url }}">{{ adapter.name }}</a></li>
+      {% endif -%}
+      {% endfor %}
+    </ul>
+  </div>
 
+  <!-- GUIDES -->
+  <div>
+    <a href="{{ site.baseurl }}/guides">
+        <div class="overview">Guides</div>
+    </a>
+    <ul><b><a href="{{ site.baseurl }}/guides" class="text-black">Guides</a></b>
+      {% for item in sorted_pages %}
+      {% if item.type=="Guides" and item.list!="exclude" -%}
+        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul><b><a href="{{ site.baseurl }}/reference" class="text-black">Reference</a></b>
+        {% for item in sorted_pages %}
+        {% if item.type=="Reference" and item.list!="exclude" -%}
+          <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </div>
+</div>
 {% include toc.html page=espanol %}
