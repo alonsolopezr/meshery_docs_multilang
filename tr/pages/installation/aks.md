@@ -6,9 +6,10 @@ language: tr
 lang: tr
 categories: tr
 type: installation
+list: include
 ---
 
-# Inicio rápido con el Servicio Kubernetes de Azure (AKS)
+# Azure Kubernetes Service (AKS) ile hızlı başlangıç
 
 ## Kubernetes administrado
 

@@ -21,29 +21,34 @@ display-title: "false"
 </div>
 
 <!-- Contribuir Inicio-->
-<!-- QUICK START -->
+<p style="margin:auto;padding:1rem;font-size: 1.25rem;">Meshery es el plano de administración de malla de servicios (Service Mesh) de código abierto para permitir la adopción, operación y administración de cualquier malla de servicios y sus cargas de trabajo.</p>
+<div class="wrapper" style="text-align: left;">
+
+  <!-- QUICK START -->
   <div>
-    <a href="{{ site.baseurl }}/es/installation">
-        <div class="overview">Inicio&nbsp;Rápido</div>
+    <a href="{{ site.baseurl }}/es/installation/quick-start">
+        <div class="overview">Inicio&nbsp;Rapido</div>
     </a>
-    <ul><b><a href="{{ site.baseurl }}/es/installation">Getting Started</a></b>
-        <li><a href="{{ site.baseurl }}/es/overview">Introducing Meshery</a></li>
-        <li><a href="{{ site.baseurl }}/es/project">Project and Community</a></li>
+    <ul><b>Başlarken</b>
+        <li><a href="{{ site.baseurl }}/es/overview">Presentando Meshery</a></li>
+        <li><a href="{{ site.baseurl }}/es/project">Project y Comunidad</a></li>        
     </ul>
-    <ul><b><a href="{{ site.baseurl }}/es/installation/platforms" class="text-black">Supported Platforms</a></b>
+    <ul><b><a href="{{ site.baseurl }}/es/installation/platforms" class="text-black">Plataformas compatibles</a></b>
         {% for item in sorted_pages %}
-        {% if item.type=="installation" %}
-          <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+        {% if item.type=="installation" and item.list=="include" -%}
+          <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+          </li>
           {% endif %}
         {% endfor %}
       </ul>
   </div>
-<!-- CONCEPTS -->
+  
+  <!-- CONCEPTS -->
   <div>
-    <a href="{{ site.baseurl }}/concepts">
-        <div class="overview">Concepts</div>
+    <a href="{{ site.baseurl }}/es/concepts">
+        <div class="overview">Conceptos</div>
     </a>
-    <ul><b><a href="{{ site.baseurl }}/concepts" class="text-black">Concepts</a></b>
+    <ul><b><a href="{{ site.baseurl }}/es/concepts" class="text-black">Conceptos</a></b>
       {% for item in sorted_pages %}
       {% if item.type=="concepts" and item.list!="exclude" -%}
         <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
@@ -51,15 +56,16 @@ display-title: "false"
         {% endif %}
       {% endfor %}
     </ul>
-    <ul><b><a href="{{ site.baseurl }}/functionality" class="text-black">Functionality</a></b>
+    <ul><b><a href="{{ site.baseurl }}/functionality" class="text-black">Funcionalidad</a></b>
       {% for item in sorted_pages %}
-      {% if item.type=="functionality" and item.list!="exclude" and item.language !="es" -%}
+        <!-- {{ item.title }}|{{ item.type }}|{{ item.list }}|{{ item.language }}<br> -->
+      {% if item.type=="functionality" and item.list!="exclude" and item.language =="es" -%}
         <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endif %}
       {% endfor %}
     </ul>
-    <ul><b><a href="{{ site.baseurl }}/service-meshes" class="text-black">Service Mesh Management</a></b>
+    <ul><b><a href="{{ site.baseurl }}/service-meshes" class="text-black">Gestión de la malla de servicios</a></b>
       {% for item in sorted_pages %}
       {% if item.type=="service-mesh" and item.list!="exclude" -%}
         <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
@@ -76,10 +82,10 @@ display-title: "false"
 
   <!-- GUIDES -->
   <div>
-    <a href="{{ site.baseurl }}/guides">
-        <div class="overview">Guides</div>
+    <a href="{{ site.baseurl }}/es/guides">
+        <div class="overview">Guias</div>
     </a>
-    <ul><b><a href="{{ site.baseurl }}/guides" class="text-black">Guides</a></b>
+    <ul><b><a href="{{ site.baseurl }}/es/guides" class="text-black">Guias</a></b>
       {% for item in sorted_pages %}
       {% if item.type=="Guides" and item.list!="exclude" -%}
         <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
@@ -87,7 +93,7 @@ display-title: "false"
         {% endif %}
       {% endfor %}
     </ul>
-    <ul><b><a href="{{ site.baseurl }}/reference" class="text-black">Reference</a></b>
+    <ul><b><a href="{{ site.baseurl }}/es/reference" class="text-black">Referencia</a></b>
         {% for item in sorted_pages %}
         {% if item.type=="Reference" and item.list!="exclude" -%}
           <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
@@ -97,6 +103,8 @@ display-title: "false"
       </ul>
   </div>
 </div>
+
+
 
 <!-- <div style="text-align:center;padding:0;margin:0;">
 <img src="https://layer5.io/assets/images/meshery/meshery-logo-shadow-light-white-text-side.svg" width="60%" />

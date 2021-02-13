@@ -8,8 +8,7 @@
     <nav class="collapse td-sidebar-nav pt-2 pl-4" id="td-section-nav">
         <!--lang is the variable that holds the lang abreviation ["en", "es", "tr"] -->
         <!-- for each lang value, we have a specific toc_lang.yml with the titles-->
-        {{lang}} {% if lang == "en" %} {% assign toc_lang = site.data.tocs.toc_en %} {% elsif lang == "es" %} {% assign toc_lang = site.data.tocs.toc_es %} {% elsif lang == "tr" %} {% assign toc_lang = site.data.tocs.toc_tr %} {% endif %} {% for section in toc_lang
-        %}
+        {% if lang == "en" %} {% assign toc_lang = site.data.tocs.toc_en %} {% elsif lang == "es" %} {% assign toc_lang = site.data.tocs.toc_es %} {% elsif lang == "tr" %} {% assign toc_lang = site.data.tocs.toc_tr %} {% endif %} {% for section in toc_lang %}
         <ul class="td-sidebar-nav__section pr-md-3">
             {% capture sectionUrl %}{{ section.url | replace: "/", "" }}{% endcapture %} {% capture pageUrl %}{{ page.url | replace: "/", "" }}{% endcapture %}
             <li class="td-sidebar-nav__section-title">

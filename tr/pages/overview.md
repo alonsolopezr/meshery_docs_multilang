@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Descripción General
+title: Genel açıklama
 permalink: tr/overview
 language: tr
 lang: tr

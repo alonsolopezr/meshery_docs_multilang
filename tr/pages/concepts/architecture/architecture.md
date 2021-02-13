@@ -5,7 +5,8 @@ permalink: /tr/concepts/architecture
 language: tr
 lang: tr
 categories: tr
-
+type: concepts
+list: include
 ---
 
 # Mimari

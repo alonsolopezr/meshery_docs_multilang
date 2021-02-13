@@ -1,25 +1,25 @@
 # TODO: crear un toc_es.yml, etc por cada lang
-- title: TR Documentación
+- title: Dokümantasyon
   url: ""
   links:
-    - title: TR Vista General
+    - title: Genel Bakış
       url: tr/overview
-    - title: Proyecto
+    - title: Proje
       url: tr/project
       children:
-        - title: Contribuyendo
+        - title: Katkı
           url: tr/project/contributing
-        - title: Liberaciones
+        - title: Salıverme
           url: tr/project/releases
-        - title: Construir Y Liberal (CI)
+        - title: Derleme ve Yayınlama (CI)
           url: tr/project/build-and-release
-        - title: Vulnerabilidades
+        - title: Güvenlik açıkları
           url: tr/project/security-vulnerabilities
-        - title: FAQ
+        - title: SSS(FAQ)
           url: tr/project/faq
-    - title: Inicio Rápido
+    - title: Hızlı başlangıç
       url: tr/installation/quick-start
-    - title: Plataformas Suportadas
+    - title: Desteklenen Platformlar
       url: tr/installation/platforms
       children:
         - title: AKS
@@ -38,28 +38,28 @@
           url: tr/installation/platforms/minikube
         - title: Windows
           url: tr/installation/platforms/windows
-- title: Conceptos
+- title: Kavramlar
   url: tr/concepts
   links:
-    - title: Arquitectura
+    - title: Mimari
       url: tr/concepts/architecture
-    - title: Adaptadores
+    - title: Adaptörler
       url: tr/concepts/architecture/adapters
-- title: Functionalidad
+- title: İşlevsellik
   url: tr/functionality
   links:
-    - title: Administración del Ciclo de Vida
+    - title: Yaşam döngüsü yönetimi
       url: tr/functionality/lifecycle-management
-    - title: Administración del Desempeño
+    - title: Performans Yönetimi
       url: tr/functionality/performance-management
-    - title: Interface de Malla de Servicio (SMI)
+    - title: Servis Mesh Arayüzü (SMI)
       url: tr/functionality/service-mesh-interface
-- title: Malla de Servicio
+- title: Servis Ağları
   url: tr/service-meshes
   links:
-    - title: Malla de Aplicaciones
+    - title: Mesh Uygulaması
       url: tr/service-meshes/adapters/app-mesh
-    - title: Malla de Servicio Citrix
+    - title: Citrix Hizmet Ağı
       url: tr/service-meshes/adapters/cpx
     - title: Consul
       url: tr/service-meshes/adapters/consul
@@ -69,42 +69,42 @@
       url: tr/service-meshes/adapters/kuma
     - title: Linkerd
       url: tr/service-meshes/adapters/linkerd
-    - title: Malla de Servicio de Red
+    - title: Ağ Hizmeti Mesh
       url: tr/service-meshes/adapters/nsm
-    - title: Malla de Servicio de NGINX
+    - title: NGINX Hizmet Ağı
       url: tr/service-meshes/adapters/nginx-sm
     - title: Octarine
       url: tr/service-meshes/adapters/octarine
-    - title: Malla de Servicio Abierta
+    - title: Servis Ağını Aç
       url: tr/service-meshes/adapters/osm
     - title: Tanzu
       url: tr/service-meshes/adapters/tanzu-sm
-    - title: Malla de Traefik
+    - title: Traefik Mesh
       url: tr/service-meshes/adapters/traefik-mesh
-- title: Guias
+- title: Kılavuzlar
   url: tr/guides
   links:
-    - title: Desplegando Aplicaciones de Prueba
+    - title: Örnek Uygulamaları Dağıtma
       url: tr/guides/sample-apps
-    - title: Integrando Prometheus y Grafana
+    - title: Prometheus ve Grafana'nın entegrasyonu
       url: tr/guides/meshery-metrics
-    - title: Actualizando Meshery
+    - title: Meshery'i Yükseltme
       url: tr/guides/upgrade
-    - title: Usando mesheryctl
+    - title: Mesheryctl kullanma
       url: tr/guides/mesheryctl
-    - title: Usando Multiples Adaptadores Meshery
+    - title: Çoklu Meshery Adaptörlerini Kullanma
       url: tr/guides/multiple-adapters
-- title: Extensibilidad
+- title: Genişletilebilirlik
   url: tr/extensibility
   links:
-    - title: "Adaptadores Meshery de Servicio"
+    - title: "Servis Mesh Adaptörleri"
       url: tr/extensibility/adapters
-    - title: "Carga de Generadores"
+    - title: "Yük Jeneratörleri"
       url: tr/extensibility/load-generators
-    - title: "Proveedores"
+    - title: "Sağlayıcılar"
       url: tr/extensibility/providers
-- title: Referencia
+- title: Referans
   url: tr/reference
   links:
-    - title: Referencia del Comando mesheryctl
+    - title: mesheryctl Komut Referansı
       url: tr/reference/mesheryctl

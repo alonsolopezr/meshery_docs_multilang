@@ -1,19 +1,19 @@
 ---
 layout: page
 title: Installation Guide
-permalink: tr/installation
+permalink: tr/installation/quick-start
 type: installation
 language: tr
 lang: tr
 categories: tr
-list: exclude
+# list: exclude
 ---
 
 <a name="getting-started"></a>
 
-## Inicio Rápido
+## Hızlı başlangıç
 
-Poner a correr Meshery en un sistema habilitado con Docker, es fácil. Usa la interfaz de linea de comandos Meshery, `mesheryctl`, para empezar Meshery en cualquiera de sus [plataformas soportadas]({{ site.baseurl }}/installation/platforms).
+Docker özellikli bir sistemde Meshery'yi çalıştırmak kolaydır. Herhangi bir sisteminizde Meshery'yi başlatmak için Meshery komut satırı arayüzü olan mesheryctl'yi kullanın [desteklenen platformlar]({{ site.baseurl }}platforms).
 
 ## Usando `mesheryctl`
 

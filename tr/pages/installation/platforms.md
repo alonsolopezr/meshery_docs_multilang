@@ -6,7 +6,8 @@ language: tr
 lang: tr
 categories: tr
 type: installation
-list: exclude
+list: include
+# list: exclude
 ---
 
 ## Empezando a trabajar con otras Plataformas<a name="compatibility-matrix"></a>

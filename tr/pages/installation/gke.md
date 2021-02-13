@@ -6,6 +6,7 @@ language: tr
 lang: tr
 categories: tr
 type: installation
+list: include
 ---
 
 # Inicio rápido con Google Kubernetes Engine (GKE)
