@@ -24,7 +24,7 @@ display-title: "false"
 <!-- QUICK START -->
   <div>
     <a href="{{ site.baseurl }}/es/installation">
-        <div class="overview">Quick&nbsp;Start</div>
+        <div class="overview">Inicio&nbsp;Rápido</div>
     </a>
     <ul><b><a href="{{ site.baseurl }}/es/installation">Getting Started</a></b>
         <li><a href="{{ site.baseurl }}/es/overview">Introducing Meshery</a></li>

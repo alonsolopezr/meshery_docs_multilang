@@ -1,0 +1,110 @@
+# TODO: crear un toc_es.yml, etc por cada lang
+- title: TR Documentación
+  url: ""
+  links:
+    - title: TR Vista General
+      url: tr/overview
+    - title: Proyecto
+      url: tr/project
+      children:
+        - title: Contribuyendo
+          url: tr/project/contributing
+        - title: Liberaciones
+          url: tr/project/releases
+        - title: Construir Y Liberal (CI)
+          url: tr/project/build-and-release
+        - title: Vulnerabilidades
+          url: tr/project/security-vulnerabilities
+        - title: FAQ
+          url: tr/project/faq
+    - title: Inicio Rápido
+      url: tr/installation/quick-start
+    - title: Plataformas Suportadas
+      url: tr/installation/platforms
+      children:
+        - title: AKS
+          url: tr/installation/platforms/aks
+        - title: Docker
+          url: tr/installation/platforms/docker
+        - title: EKS
+          url: tr/installation/platforms/eks
+        - title: GKE
+          url: tr/installation/platforms/gke
+        - title: KinD
+          url: tr/installation/platforms/kind
+        - title: Kubernetes
+          url: tr/installation/platforms/kubernetes
+        - title: Minikube
+          url: tr/installation/platforms/minikube
+        - title: Windows
+          url: tr/installation/platforms/windows
+- title: Conceptos
+  url: tr/concepts
+  links:
+    - title: Arquitectura
+      url: tr/concepts/architecture
+    - title: Adaptadores
+      url: tr/concepts/architecture/adapters
+- title: Functionalidad
+  url: tr/functionality
+  links:
+    - title: Administración del Ciclo de Vida
+      url: tr/functionality/lifecycle-management
+    - title: Administración del Desempeño
+      url: tr/functionality/performance-management
+    - title: Interface de Malla de Servicio (SMI)
+      url: tr/functionality/service-mesh-interface
+- title: Malla de Servicio
+  url: tr/service-meshes
+  links:
+    - title: Malla de Aplicaciones
+      url: tr/service-meshes/adapters/app-mesh
+    - title: Malla de Servicio Citrix
+      url: tr/service-meshes/adapters/cpx
+    - title: Consul
+      url: tr/service-meshes/adapters/consul
+    - title: Istio
+      url: tr/service-meshes/adapters/istio
+    - title: Kuma
+      url: tr/service-meshes/adapters/kuma
+    - title: Linkerd
+      url: tr/service-meshes/adapters/linkerd
+    - title: Malla de Servicio de Red
+      url: tr/service-meshes/adapters/nsm
+    - title: Malla de Servicio de NGINX
+      url: tr/service-meshes/adapters/nginx-sm
+    - title: Octarine
+      url: tr/service-meshes/adapters/octarine
+    - title: Malla de Servicio Abierta
+      url: tr/service-meshes/adapters/osm
+    - title: Tanzu
+      url: tr/service-meshes/adapters/tanzu-sm
+    - title: Malla de Traefik
+      url: tr/service-meshes/adapters/traefik-mesh
+- title: Guias
+  url: tr/guides
+  links:
+    - title: Desplegando Aplicaciones de Prueba
+      url: tr/guides/sample-apps
+    - title: Integrando Prometheus y Grafana
+      url: tr/guides/meshery-metrics
+    - title: Actualizando Meshery
+      url: tr/guides/upgrade
+    - title: Usando mesheryctl
+      url: tr/guides/mesheryctl
+    - title: Usando Multiples Adaptadores Meshery
+      url: tr/guides/multiple-adapters
+- title: Extensibilidad
+  url: tr/extensibility
+  links:
+    - title: "Adaptadores Meshery de Servicio"
+      url: tr/extensibility/adapters
+    - title: "Carga de Generadores"
+      url: tr/extensibility/load-generators
+    - title: "Proveedores"
+      url: tr/extensibility/providers
+- title: Referencia
+  url: tr/reference
+  links:
+    - title: Referencia del Comando mesheryctl
+      url: tr/reference/mesheryctl
