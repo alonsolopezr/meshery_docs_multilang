@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lanzamientos
+title: Salıverme
 permalink: tr/project/releases
 language: tr
 lang: tr

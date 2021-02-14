@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Functionality
+title: İşlevsellik
 permalink: tr/functionality
 type: functionality
 language: tr
@@ -9,15 +9,15 @@ categories: tr
 list: exclude
 ---
 
-# Funcionalidades de Meshery
+# Meshery işlevleri
 
-Estas secciones proveen guías de usuario sobre las funcionalidades que ofrece Meshery.
+Bu bölümler, Meshery'nin sunduğu işlevler hakkında kullanıcı kılavuzları sağlar.
 
 {% assign sorted_functionality = site.pages | sort: "functionality" %}
 
 <ul>
     {% for item in sorted_functionality %}
-    {% if item.type=="functionality" -%}
+    {% if item.type=="functionality" and item.language=="tr" -%}
       <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
       {% endif %}
     {% endfor %}

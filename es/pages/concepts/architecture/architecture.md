@@ -2,6 +2,7 @@
 layout: page
 title: Arquitectura de Meshery 
 permalink: /es/concepts/architecture
+abstract: "descripción general de los diferentes componentes individuales de la arquitectura Meshery y cómo interactúan como sistema."
 language: es
 lang: es
 categories: es

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Vulnerabilidades de seguridad
+title: Güvenlik açıkları
 permalink: tr/project/security-vulnerabilities
-description: Cómo el equipo de Meshery maneja las vulnerabilidades de seguridad.
+description: Meshery ekibi güvenlik açıklarını nasıl ele alır.
 language: tr
 lang: tr
 categories: tr

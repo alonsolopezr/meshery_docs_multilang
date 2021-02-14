@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Performance Management
+title: Performans Yönetimi
 permalink: tr/functionality/performance-management
 type: functionality 
 language: tr

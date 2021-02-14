@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contribuir Flujo
+title: Flujo de Contribución
 permalink: es/project/contributing-flow
 language: es
 lang: es

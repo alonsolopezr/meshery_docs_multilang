@@ -56,7 +56,7 @@ display-title: "false"
         {% endif %}
       {% endfor %}
     </ul>
-    <ul><b><a href="{{ site.baseurl }}/functionality" class="text-black">Funcionalidad</a></b>
+    <ul><b><a href="{{ site.baseurl }}/es/functionality" class="text-black">Funcionalidad</a></b>
       {% for item in sorted_pages %}
         <!-- {{ item.title }}|{{ item.type }}|{{ item.list }}|{{ item.language }}<br> -->
       {% if item.type=="functionality" and item.list!="exclude" and item.language =="es" -%}
@@ -65,9 +65,9 @@ display-title: "false"
         {% endif %}
       {% endfor %}
     </ul>
-    <ul><b><a href="{{ site.baseurl }}/service-meshes" class="text-black">Gestión de la malla de servicios</a></b>
+    <ul><b><a href="{{ site.baseurl }}/es/service-meshes" class="text-black">Gestión de la malla de servicios</a></b>
       {% for item in sorted_pages %}
-      {% if item.type=="service-mesh" and item.list!="exclude" -%}
+      {% if item.type=="service-mesh" and item.list!="exclude" and item.language =="es" -%}
         <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endif %}

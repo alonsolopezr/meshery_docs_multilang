@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SMI Conformance Capability
+title: SMI Uyum Yeteneği
 permalink: tr/functionality/smi-conformance
 type: functionality 
 language: tr

@@ -2,6 +2,7 @@
 layout: page
 title: Meshery Mimarisi
 permalink: /tr/concepts/architecture
+abstract: "Meshery mimarisinin farklı bileşenlerine ve bunların bir sistem olarak nasıl etkileşim kurduğuna genel bakış"
 language: tr
 lang: tr
 categories: tr

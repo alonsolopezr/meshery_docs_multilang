@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contribuir Flujo
+title: Katkıda bulunan akış
 permalink: tr/project/contributing-flow
 language: tr
 lang: tr

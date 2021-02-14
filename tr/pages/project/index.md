@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Proyecto
+title: Taslak
 permalink: tr/project
-description: Proyecto Meshery
+description: Meshery Projesi
 language: tr
 lang: tr
 categories: tr

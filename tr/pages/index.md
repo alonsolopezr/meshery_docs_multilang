@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Türkçe belgeler
+title: Türkçe dokümantasyon 🇹🇷
 permalink: /tr/index
 language: tr
 lang: tr

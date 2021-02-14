@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lifecycle Management
+title: Yaşam döngüsü yönetimi
 permalink: tr/functionality/lifecycle-management
 type: functionality
 language: tr

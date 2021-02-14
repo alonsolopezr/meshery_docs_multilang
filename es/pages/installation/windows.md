@@ -6,6 +6,7 @@ language: es
 lang: es
 categories: es
 type: installation
+list: include
 ---
 
 # **Inicio rápido con Windows**

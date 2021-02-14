@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contribuir
+title: Katkıda bulunmak
 permalink: tr/project/contributing
 language: tr
 lang: tr

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Service Meshes
-permalink: service-meshes
+title: Servis Ağları
+permalink: tr/service-meshes
 type: service-mesh
 list: exclude
 language: tr
@@ -21,4 +21,4 @@ As the multi-mesh manager, Meshery offers support for more adapters than any oth
 {% endif -%}
 {% endfor %}
 
-Meshery supports the following service meshes. It uses both abstraction APIs and service mesh-specific adapters to interface with and manage service meshes. Review the full list of Meshery [adapters]({{ site.baseurl }}/architecture/adapters).
+Meshery supports the following service meshes. It uses both abstraction APIs and service mesh-specific adapters to interface with and manage service meshes. Review the full list of Meshery [adapters]({{ site.baseurl }}/tr/architecture/adapters).
